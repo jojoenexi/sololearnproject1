@@ -1,0 +1,6 @@
+function Cat(name) {
+this.name = name;
+}
+var obj1 = new Cat('Lucy');
+var obj2 = new Cat('Lucy');
+alert(obj1 == obj2);
